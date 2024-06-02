@@ -25,7 +25,7 @@ while (cantidad != 0){
         break;
     }
 while (saborTarta === ""){
-    saborTarta = prompt("Ingrese el sabor que desee:\n\ -chocolate \n\ -fresa \n\ -vainilla");
+    saborTarta = prompt("Ingrese el sabor que desee:\n\ -Chocolate \n\ -Fresa \n\ -Vainilla");
     switch (saborTarta.toLowerCase()){
         case "chocolate":
             resultado = multiplicar(chocolate, cantidad);
